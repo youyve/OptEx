@@ -1,0 +1,39 @@
+# 忽略构建文件
+build/
+dist/
+*.egg-info/
+
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+
+# 包管理器生成的文件
+pip-wheel-metadata/
+pip-log.txt
+
+# 日志文件
+*.log
+
+# 生成的图片和输出
+examples/output/
+output/
+
+# 数据文件
+data/
+
+# 操作系统相关文件
+.DS_Store
+Thumbs.db
+
+# 虚拟环境文件
+env/
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# 临时文件
+*.swp
+*.swo
+
